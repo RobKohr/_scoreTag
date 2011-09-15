@@ -1,0 +1,13 @@
+{	"name":"Google+ _scoreTag",
+	"description":"Turns _scoreTags into links that auto search for other posts on Google+ when clicked",
+	"icons": { "16": "icon16.png",
+		   "48": "icon48.png",
+		   "128": "icon128.png" },
+	"content_scripts": [ {
+	    "css": [ ],
+	    "js": [ "jquery-1.6.4.min.js", "jquery.ba-replacetext.js", "main.js"],
+	    "matches": [ "https://plus.google.com/*", "http://plus.google.com/*"],
+	    "run_at": "document_start"
+	} ],
+	"version": "1.0"
+}
