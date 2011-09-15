@@ -5,3 +5,4 @@ Whenever any post has a _scoreTag in it (a tag with the underscore before it) it
 
 Note: tags can appear in comments as well as posts, so you can add _scoreTags to other user's posts.  
 
+Currently only supports Google Chrome. 
